@@ -1,2 +1,3 @@
-# Sahavas-
-Sahavas is a full-stack roommate finder and shared housing platform that connects room seekers with room owners directly. It features lifestyle-based compatibility matching, room listings, advanced search and filters, interest requests, and direct communication to make finding affordable shared accommodation easier and broker-free.
+Sahavas is a full-stack roommate finder and shared housing platform designed to connect room seekers with room owners directly. The platform aims to simplify the process of finding affordable shared accommodation through lifestyle-based compatibility matching, room listings, advanced search and filters, interest requests, and direct communication.
+
+Sahavas helps users discover suitable roommates and accommodation according to their preferences, lifestyle, and requirements while reducing dependency on traditional brokers.
