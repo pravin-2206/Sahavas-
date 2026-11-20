@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sahavas · Register</title>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+        <link rel="stylesheet" href="../CSS/register.css">
+        
+</head>
+
+<body>
+        <div class="auth-container">
+                <!-- Left brand panel -->
+                <div class="brand-panel">
+                        <div class="brand-content">
+                                <i class="fas fa-home brand-icon"></i>
+                                <h1>Sahavas</h1>
+                                <p class="tagline">join the broker-free community</p>
+                                <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> create your profile</li>
+                                        <li><i class="fas fa-check-circle"></i> set preferences</li>
+                                        <li><i class="fas fa-check-circle"></i> get matched instantly</li>
+                                </ul>
+                        </div>
+                </div>
+
+                <!-- Register form -->
+                <div class="form-panel">
+                        <form id="registerForm" class="auth-form">
+                                <h2>create account</h2>
+                                <p class="subhead">join sahavaas - no fees, no brokers</p>
+
+                                <div class="row-2col">
+                                        <div class="input-group">
+                                                <i class="fas fa-user"></i>
+                                                <input type="text" id="regName" placeholder="full name" required>
+                                        </div>
+                                        <div class="input-group">
+                                                <i class="fas fa-envelope"></i>
+                                                <input type="email" id="regEmail" placeholder="email" required>
+                                        </div>
+                                </div>
+
+                                <div class="row-2col">
+                                        <div class="input-group">
+                                                <i class="fas fa-lock"></i>
+                                                <input type="password" id="regPassword" placeholder="password" required>
+                                        </div>
+                                        <div class="input-group">
+                                                <i class="fas fa-check-circle"></i>
+                                                <input type="password" id="regConfirmPassword"
+                                                        placeholder="confirm password" required>
+                                        </div>
+                                </div>
+
+                                <!-- Role selector (M1: Seeker / Owner) -->
+                                <div class="role-selector">
+                                        <span class="role-label"><i class="fas fa-user-tag"></i> I AM A:</span>
+                                        <div class="role-options">
+                                                <label class="role-option">
+                                                        <input type="radio" name="role" value="seeker" checked>
+                                                        <i class="fas fa-search"></i> seeker
+                                                </label>
+                                                <label class="role-option">
+                                                        <input type="radio" name="role" value="owner">
+                                                        <i class="fas fa-home"></i> owner
+                                                </label>
+                                        </div>
+                                </div>
+
+                                <button type="submit" class="btn-primary">
+                                        <i class="fas fa-user-plus"></i> register
+                                </button>
+
+                                <p class="switch-hint">
+                                        already registered? <a href="login.html">login here</a>
+                                </p>
+                        </form>
+
+                        <div id="authMessage" class="auth-message"></div>
+                </div>
+        </div>
+
+</body>
+
+</html>
